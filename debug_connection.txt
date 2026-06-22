@@ -1,0 +1,8 @@
+# Tester le token seul
+curl -H "Authorization: token VOTRE_TOKEN" https://api.github.com/user
+
+# Tester l'accès au dépôt
+curl -H "Authorization: token VOTRE_TOKEN" https://api.github.com/repos/utilisateur/repo
+
+# Tester la lecture des fichiers
+curl -H "Authorization: token VOTRE_TOKEN" https://api.github.com/repos/utilisateur/repo/contents

@@ -1,0 +1,42 @@
+
+## 🚀 Comment exécuter l'application
+
+### 1. Installation
+```bash
+# Créer un environnement virtuel (optionnel mais recommandé)
+python -m venv venv
+source venv/bin/activate  # Sur Windows: venv\Scripts\activate
+
+# Installer les dépendances
+pip install -r requirements.txt
+
+python main.py
+
+
+Utilisation
+Connexion
+Cliquez sur "🔗 Se connecter" dans la barre d'outils
+
+Entrez l'URL de votre dépôt (ex: https://github.com/utilisateur/repo)
+
+Entrez votre token d'accès personnel
+
+Cliquez sur OK
+
+Édition de fichiers
+Double-cliquez sur un fichier dans l'arborescence
+
+Modifiez le contenu dans l'éditeur
+
+Les modifications sont indiquées par un statut orange
+
+Sauvegardez avec Ctrl+S ou le bouton "💾 Sauvegarder"
+
+Commitez avec Ctrl+Shift+C ou le bouton "📤 Commiter"
+
+Fonctionnalités avancées
+Recherche : Ctrl+F (à venir)
+
+Remplacer : Ctrl+H (à venir)
+
+Coloration syntaxique automatique pour les fichiers .py
